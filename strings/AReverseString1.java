@@ -51,8 +51,7 @@ public class EFindDuplicateChars5 {
                 map.put(c,1);}}
         for (Map.Entry<Character, Integer> entry : map.entrySet()){
             if(entry.getValue() > 1){
-                System.out.println(entry.getKey() + ":"+ entry.getValue());
-            }}}}
+                System.out.println(entry.getKey() + ":"+ entry.getValue());}}}}
 
 public class FindFirstNonRepeatChar6 {
     public static void main(String args[]){
@@ -113,9 +112,7 @@ public class KStringImmutable11 {
 public class LRCountNumberofWords12 {
     public static void main(String args[]){
         String str="     My name is Chinmai Kallepalli";
-        countWords(str);
-    }
-
+        countWords(str);}
     public static void countWords(String str){
         String frmatStr= str.trim();
         String[] arrOfStr = frmatStr.split(" ", -1);
